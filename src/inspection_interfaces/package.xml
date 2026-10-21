@@ -9,6 +9,16 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <!-- 编译时生成接口代码的工具(rosidl 生成器) -->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <!-- 基础类型包,提供 Time/Duration 等类型 -->
+  <depend>builtin_interfaces</depend>
+  <!-- 运行时需要的消息类型库 -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <!-- 接口包组 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 

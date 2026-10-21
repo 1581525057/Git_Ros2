@@ -1,0 +1,6 @@
+string task_id
+string station_id
+---
+bool found
+InspectionReport report
+string detail

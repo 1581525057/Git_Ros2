@@ -1,0 +1,10 @@
+string robot_id
+string task_id
+string station_id
+uint32 sample_count
+float64 avg_temperature_c
+float64 max_vibration_rms
+bool passed
+uint16 error_code
+string detail
+builtin_interfaces/Time completed_at

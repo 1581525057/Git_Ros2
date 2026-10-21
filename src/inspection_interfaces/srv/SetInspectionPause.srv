@@ -1,0 +1,6 @@
+string task_id
+string station_id
+bool pause
+---
+bool accepted
+string detail
