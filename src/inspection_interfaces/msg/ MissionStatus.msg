@@ -1,0 +1,26 @@
+uint8 UNKNOWN=0
+uint8 QUEUED=1
+uint8 WAITING_FOR_ROBOT=2
+uint8 WAITING_ARRIVAL=3
+uint8 COLLECTING=4
+uint8 PAUSED_MANUAL=5
+uint8 PAUSED_HEALTH=6
+uint8 PAUSED_DEPENDENCY=7
+uint8 RECOVERY_REQUIRED=8
+uint8 SUCCEEDED=9
+uint8 CANCELED=10
+uint8 FAILED=11
+
+string task_id
+string robot_id
+uint8 state
+int32 queue_position
+string current_station_id
+int32 current_index
+uint32 completed_count
+bool paused_manual
+bool paused_health
+bool paused_dependency
+uint16 error_code
+string detail
+builtin_interfaces/Time stamp

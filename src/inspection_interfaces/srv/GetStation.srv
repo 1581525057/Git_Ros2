@@ -1,0 +1,5 @@
+string station_id
+---
+bool found
+string name
+string description

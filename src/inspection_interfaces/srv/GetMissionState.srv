@@ -1,0 +1,5 @@
+string task_id
+---
+bool found
+MissionStatus state
+string detail

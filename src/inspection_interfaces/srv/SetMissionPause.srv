@@ -1,0 +1,6 @@
+string task_id
+bool pause
+---
+bool accepted
+MissionStatus state
+string detail

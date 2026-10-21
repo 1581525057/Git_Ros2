@@ -1,0 +1,23 @@
+string task_id
+string[] station_ids
+uint8 priority
+builtin_interfaces/Time deadline
+bool resume_existing
+---
+bool success
+uint16 error_code
+string detail
+InspectionReport[] reports
+uint32 reassignment_count
+---
+uint8 state
+string robot_id
+int32 queue_position
+string current_station_id
+int32 current_index
+uint32 completed_count
+uint32 reassignment_count
+bool paused_manual
+bool paused_health
+bool paused_dependency
+string detail

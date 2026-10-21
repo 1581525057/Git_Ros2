@@ -1,0 +1,3 @@
+---
+QueueEntry[] pending_tasks
+RobotOccupancy[] robots

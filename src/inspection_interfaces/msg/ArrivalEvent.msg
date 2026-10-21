@@ -1,0 +1,4 @@
+string robot_id
+string task_id
+string station_id
+builtin_interfaces/Time arrived_at
